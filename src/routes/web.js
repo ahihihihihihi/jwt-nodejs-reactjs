@@ -9,6 +9,7 @@ const initWebRoutes = (app) => {
     })
 
     router.get("/user", HomeController.handleUserPage)
+    router.post("/users/create-user", HomeController.handleCreateUser)
 
     return app.use("/", router)
 }

@@ -1,0 +1,1 @@
+docker run --name jwt-react-nodejs --privileged -e MYSQL_ROOT_PASSWORD=123456 -e MYSQL_DATABASE=jwt -p 3305:3306 -d mysql:8.0
